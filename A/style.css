@@ -1,0 +1,112 @@
+body {
+  position: relative;
+  height: 95%;
+  margin: 0;
+  padding: 0;
+}
+
+.top {
+  text-align: center;
+  position: fixed;
+  top: 0;
+  height: 50px;
+  background: rgb(233, 130, 247);
+  width: 100%;
+  float: top;
+}
+
+.main {
+  width: 100%;
+  /*background: rgb(128, 48, 165);*/
+  background-image: url(./kk.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  /* padding-right: 150px;
+  padding-left: 150px;*/
+}
+
+.text-head {
+  padding-right: 100px;
+  padding-left: 100px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.pirates {
+  /*color: rgba(255, 255, 255, 0.781);*/
+  color: purple;
+  font-size: 65px;
+  padding: 35px;
+
+  width: 700px;
+  margin: auto;
+}
+
+.instruction1 {
+  color: red;
+  text-align: center;
+}
+/*.instruction1:hover {
+  color: yellow;
+}*/
+
+h6 {
+  color: aliceblue;
+}
+
+hr {
+  border: 2px solid black;
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.548);
+  width: 100%;
+  border: 2px solid gray;
+  border-radius: 10px;
+}
+
+/*
+.row{
+  padding: 50px;
+  margin-left: 70px;
+  margin-right: 70px;
+
+  background-color: rgb(197, 122, 122);
+}
+*/
+
+.col-md-12 {
+  position: inherit;
+}
+
+label {
+  padding-left: 20px;
+  font-size: 20px;
+  font-weight: 600;
+  color: aliceblue;
+}
+
+.submit {
+  margin: auto;
+  background-color: rgb(236, 29, 29);
+  height: 50px;
+  font-size: 20px;
+  font-weight: 600;
+  color: black;
+  border: rgb(243, 87, 87);
+  width: 250px;
+}
+
+.foot {
+  float: bottom;
+  position: fixed;
+  bottom: 0;
+  height: 50px;
+  width: 100%;
+  text-align: center;
+  background: rgb(30, 19, 32);
+}
